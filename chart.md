@@ -31,12 +31,3 @@ classDiagram
     AudioCapture --> LanguageProcessor : sends audio data
     LanguageProcessor --> AudioRenderer : sends translated text
     AudioRenderer --> User : delivers translated audio
-
-### Explanation
-
-1. **User**: Represents the user of the application. The user initiates the speech.
-2. **AudioCapture**: Captures the user's speech and stores it as audio data.
-3. **LanguageProcessor**: Processes the captured audio data, detects the source language, translates it to the desired language, and stores it as text.
-4. **AudioRenderer**: Converts the translated text into high-quality spoken audio and delivers it back to the user.
-
-This diagram visually represents the core functionality and the relationships between the components of the MultiLingualVoice application. You can add this Markdown content to a file and upload it to GitHub, where GitHub will automatically render the Mermaid code and display the diagram.
