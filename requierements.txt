@@ -1,0 +1,7 @@
+sounddevice
+numpy
+wavio
+gtts
+playsound
+textblob
+langdetect
